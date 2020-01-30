@@ -1,0 +1,125 @@
+.body{
+	background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url('./hospital.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*Header section Styling*/
+.header{
+	background-color: #3ee;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+.heading1{
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 12px 10px 10px orange;
+}
+.heading2{
+	font-size: 20px;
+}
+
+/*Form section*/
+.form{
+	width: 750px;
+	margin: auto;
+	border-left: 2px #3ee solid;
+	border-radius: 10px;
+	border-right: 2px #3ee solid;
+	background-color: transparent;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+.form div{
+	margin-top: 20px;
+}
+.form-control{
+	background-color: transparent !important;
+	border:2px green solid;
+	color: orange;
+	font-size: 20px;
+}
+label{
+	font-family: ;
+	border-bottom: 1px solid #3ee;
+	font-size: 25px;
+	color: white;
+	
+}
+.btn1{
+	color:orange;
+	background-color:#3ee;  
+}
+.btn1:hover{
+	color:black;
+	cursor: pointer;
+	background-color: orange;
+	transition: 43;
+	border: 2px green solid;  
+}
+textarea{
+	height: 200px;
+	width: 100%;
+}
+.footer{
+	background-color: #000;
+	height: 300px;
+	color: white;
+	width: 100%;
+}
+.footer div{
+	margin-top: 20px;
+	border-top: 3px solid #3ee;
+}
+.footer i{
+	padding-right: 20px;
+	font-size: 30px;
+}
+
+/*Welcome page*/
+.welcome{
+	background: #fc354c;
+	background: -webkit-linear-gradient(to right,#fc354c,#0abfbc);
+	background: linear-gradient(to right,#fc354c,#0abfbc);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+.banner{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.banner h1{
+	font-weight: bolder;
+	color: #fff;
+	font-size: 50px;
+}
+.banner h6{
+	font-weight: bold;
+	font-size: 30px;
+	color: green;
+}
+.banner button{
+	color:#fff;
+	background: -webkit-linear-gradient(to right,#fc354c,#0abfbc);
+	background: linear-gradient(to right,#fc354c,#0abfbc);
+	border-radius:30px;
+	width: 200px;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.banner button:hover{
+	background: -webkit-linear-gradient(to right,green,orange);
+	background: linear-gradient(to right,green,orange);
+}
+.doctorhead{
+	margin-top: 40px;
+}
